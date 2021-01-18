@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8083
-ADD target/fileupload.jar fileupload.jar 
-ENTRYPOINT ["java","-jar","/fileupload.jar"]
+ADD target/FileUpload.jar FileUpload.jar 
+ENTRYPOINT ["java","-jar","/FileUpload.jar"]
